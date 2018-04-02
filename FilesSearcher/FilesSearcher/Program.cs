@@ -68,7 +68,9 @@ namespace FilesSearcher
                         }
                         else
                         {
+                            Console.WriteLine("*************************");
                             Console.WriteLine("There is no recent files");
+                            Console.WriteLine("*************************");
                         }
                     }
                 }
@@ -96,7 +98,9 @@ namespace FilesSearcher
             }
             else
             {
+                Console.WriteLine("***********************************************************");
                 Console.WriteLine("Searching directory or/and file extension was not entered");
+                Console.WriteLine("***********************************************************");
             }
 
             Console.ReadLine();
